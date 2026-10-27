@@ -25,9 +25,10 @@ GOLD_INK   = RGBColor(0x8A, 0x5E, 0x00)
 SERIF = "Georgia"
 SANS  = "Calibri"
 
-BRAND = r"C:/LINA/TOOLS/cult-dashboard-starter/public/brand"
-FIG   = r"C:/LINA/TOOLS/cult-dashboard-starter/public/figures"
-OUT   = r"C:/LINA/UNAL 2626-1/AVANCE TESIS/Defensa_Lina_GeoAI_CGSM.pptx"
+AQUI  = os.path.dirname(os.path.abspath(__file__))
+BRAND = os.path.join(AQUI, "public", "brand")
+FIG   = os.path.join(AQUI, "public", "figures")
+OUT   = os.path.join(AQUI, "Defensa_Lina_GeoAI_CGSM.pptx")
 
 prs = Presentation()
 prs.slide_width = Inches(13.333)

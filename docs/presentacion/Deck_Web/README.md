@@ -47,7 +47,7 @@ Rebuild: `python _build_pptx.py`. QA render to PNG via PowerPoint: `python _expo
 - **Slides + content:** `src/components/presentation/thesis-deck.tsx` — 12 slides,
   all text in English, composed from reusable primitives.
 - **Cover credits:** edit the `PRESENTER` / `ADVISOR` / `DEFENSE_DATE` constants
-  at the top of `thesis-deck.tsx` (advisor + date are placeholders to fill in).
+  at the top of `thesis-deck.tsx` (set `ADVISOR` and `DEFENSE_DATE` before building).
 - **Default theme:** `<Deck.Root brand="verde">` — change to `"morado"` for purple
   by default. Green is the default because the thesis subject is mangrove /
   coastal ecology.

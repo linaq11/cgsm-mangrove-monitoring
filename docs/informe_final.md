@@ -196,7 +196,7 @@ Finalmente, los productos del proyecto se integraron en un dashboard HTML con ca
 
 ## 7.8 Flujo de datos
 
-![](C:/LINA/UNAL 2626-1/PROG_SIG/Docker_1/proyecto-cgsm/docs/informe_final_media/media/image3.png){width="6.2375in" height="3.5104166666666665in"}
+![](informe_final_media/media/image3.png){width="6.2375in" height="3.5104166666666665in"}
 
 *Figura 3: Flujo metodológico del proyecto: cinco fases técnicas más un módulo transversal de forzamiento climático, ejecutadas dentro del contenedor Docker sig_unal v1.11 con validación cruzada entre Python, R y Julia.*
 
@@ -477,7 +477,7 @@ El script src/python/alertas_manglar.py integra el resultado de bfastmonitor con
 
 El producto se genera en outputs/tables/alertas_estaciones.csv y se representa espacialmente mediante el mapa semáforo de la Figura 9. Su diseño permite una actualización mensual a medida que ingresan nuevas composiciones de Sentinel-2 o Sentinel-1. Este módulo constituye un prototipo funcional sobre el cual se podrá incorporar modelos predictivos de tendencia y simulación de escenarios climáticos en futuros proyectos.
 
-![](C:/LINA/UNAL 2626-1/PROG_SIG/Docker_1/proyecto-cgsm/docs/informe_final_media/media/image9.png){width="4.660416666666666in" height="3.3125in"}
+![](informe_final_media/media/image9.png){width="4.660416666666666in" height="3.3125in"}
 
 Figura 9: Mapa semáforo del estado del manglar de la CGSM por estación, según el módulo de alertas tempranas. Verde = estable, amarillo = alerta, rojo = crítica, según la severidad y persistencia de anomalías NDVI z-score en los últimos doce meses.
 

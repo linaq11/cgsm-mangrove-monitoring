@@ -90,7 +90,7 @@ cgsm-mangrove-monitoring/
 
 ## Citas y datos abiertos
 
-Los datos satelitales provienen de Google Earth Engine (Sentinel-2, Landsat 8/9, Sentinel-1 SAR, JRC GSW, SRTM, GFD). Los datos de campo provienen del INVEMAR vía GBIF ([DOI: 10.15472/0fqdp4](https://doi.org/10.15472/0fqdp4)). Los forzamientos climáticos provienen de NOAA-CPC (ENSO), IDEAM-DHIME (caudal) y ECMWF ERA5-Land/CHIRPS (clima local). La cartografía de referencia es INVEMAR 1:25.000 y ESA WorldCover v200.
+Los datos satelitales provienen de Google Earth Engine (Sentinel-2, Landsat 8/9, Sentinel-1 SAR, JRC GSW, SRTM, GFD). Los datos de campo provienen del INVEMAR vía GBIF ([DOI: 10.15472/0fqdp4](https://doi.org/10.15472/0fqdp4)). Los forzamientos climáticos provienen de NOAA-CPC (ENSO), IDEAM-DHIME (caudal) y ECMWF ERA5-Land/CHIRPS (clima local). La cartografía de referencia es INVEMAR 1:25.000 y ESA WorldCover v200. El caudal del río Magdalena es la exportación del portal DHIME del IDEAM para las estaciones El Banco y Ganadería Caribe, datos abiertos conservados con su procedencia en `data/raw/ideam/`.
 
 ## Licencia
 

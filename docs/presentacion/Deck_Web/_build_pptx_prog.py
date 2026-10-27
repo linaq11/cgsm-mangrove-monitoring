@@ -27,9 +27,10 @@ PURPLE     = RGBColor(0x62, 0x0C, 0x78)
 SERIF = "Georgia"
 SANS  = "Calibri"
 
-BRAND = r"C:/LINA/TOOLS/cult-dashboard-starter/public/brand"
-FIG   = r"C:/LINA/TOOLS/cult-dashboard-starter/public/figures/prog"
-OUT   = r"C:/LINA/UNAL 2626-1/PROG_SIG/Docker_1/proyecto-cgsm/docs/presentacion/Presentacion_ProgSIG_CGSM.pptx"
+AQUI  = os.path.dirname(os.path.abspath(__file__))
+BRAND = os.path.join(AQUI, "public", "brand")
+FIG   = os.path.join(AQUI, "public", "figures", "prog")
+OUT   = os.path.join(AQUI, "..", "Presentacion_ProgSIG_CGSM.pptx")
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 
 prs = Presentation()

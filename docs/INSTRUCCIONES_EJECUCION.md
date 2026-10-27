@@ -159,7 +159,7 @@ El script regenera automáticamente:
 - `docs/informe_final.pdf` (25 pp) vía Typst si existe `informe_final.qmd`
 - Lo equivalente para `informe_anexos.{html,md,pdf}` (12 pp)
 
-Los pipelines viejos `scripts/render_docs.sh` y `scripts/embellish_docx_tables.py` están archivados en `scripts/_legacy/` y los `.qmd` LaTeX en `docs/_legacy_qmd/`. No se usan para entrega; quedan solo como referencia histórica.
+Los pipelines anteriores (`scripts/render_docs.sh`, `scripts/embellish_docx_tables.py` y los `.qmd` LaTeX) se retiraron del repositorio; quedan en el historial de Git hasta la versión v1.0.0.
 
 ---
 
