@@ -1,5 +1,7 @@
 # Pipeline multilenguaje GeoAI para el monitoreo del manglar en la Ciénaga Grande de Santa Marta (2013–2025)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23709981.svg)](https://doi.org/10.5281/zenodo.23709981)
+
 ![License](https://img.shields.io/badge/License-MIT-black)
 ![Stack](https://img.shields.io/badge/Stack-Python%20%C2%B7%20R%20%C2%B7%20Julia-blue)
 [![Dashboard en vivo](https://img.shields.io/badge/Dashboard-en%20vivo-success?logo=github)](https://linaq11.github.io/cgsm-mangrove-monitoring/dashboard.html)
